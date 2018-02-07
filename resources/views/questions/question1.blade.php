@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Fill up the form</h1><p align="right"><a href="{{ url('/') }}/questions">Back to Questions</a></p>
+    <h1>Competition Form</h1><p align="right"><a href="{{ url('/') }}/questions">Back to Questions</a></p>
     <hr>
     
 
@@ -24,12 +24,12 @@
 {!! Form::open(['route' => 'questions.answer1']) !!}
 
 <div class="form-group">
-    {!! Form::label('date1', 'Enter start date') !!}
+    {!! Form::label('date1', 'Select start date') !!}
     {!! Form::text('date1', null, ['id' => 'datepicker1', 'class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-    {!! Form::label('date2', 'Enter end date') !!}
+    {!! Form::label('date2', 'Select end date') !!}
     {!! Form::text('date2', null, ['id' => 'datepicker2','class' => 'form-control']) !!}
 </div>
 <hr>
