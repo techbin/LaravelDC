@@ -1,7 +1,7 @@
 # aligent
 The source code for the competition
 
-This competition has been developed in Laravel Framework, below are the configuration and steps to execute the project. For more detailed steps check the Readme.doc file.
+This project has been developed in Laravel Framework, below are the configuration and steps to execute the project. For more detailed steps check the Readme.doc file.
 
 Configuration required to run the project
 1. Apache	2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11
