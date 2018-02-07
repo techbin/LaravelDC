@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Competition Form</h1><p align="right"><a href="{{ url('/') }}/questions">Back to Questions</a></p>
+    <h1>Project Form</h1><p align="right"><a href="{{ url('/') }}/questions">Back to Questions</a></p>
     <hr>
     
 
