@@ -26,6 +26,23 @@ http://localhost/aligent/public/questions
 
 Step 4: Click the Answers link to input the parameters for the questions and see result - as shown in the screen shot below.
  
+
+Above steps should work but incase if there is any issue with the laravel or composer then simply do a fresh install.
+
+1. composer global require "laravel/installer"
+
+2. laravel new aligent
+
+3. composer install 
+
+4. rename .env.example .env
+
+5. Copy the controller and view folders from the github project extract and paste in the new instance.
+
+5.1 Controllers: aligent/app/Http/Controllers
+5.2 Views: aligent/resources/views/questions
+
+
 C. File Structure
 
 The projects main controller files are located at aligent/app/Http/Controllers
