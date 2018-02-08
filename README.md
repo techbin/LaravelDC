@@ -20,14 +20,16 @@ Step 1: Assumed the webserver is running and it supports above the stated config
 Step 2: Create a folder "aligent" and Unzip the compressed project folder. 
 
 Say for example  c:\xammp\htdocs\aligent
-Step 3:  If everything is fine then you should be able to access the project as show in the screen shot below by accessing the url: 
+
+Step 3: Run "composer install" to install the vendor files. 
+
+Step 4:  If everything works fine then you should be able to access the project by accessing the url(assuming the webserver is local): 
 
 http://localhost/aligent/public/questions
 
-Step 4: Click the Answers link to input the parameters for the questions and see result - as shown in the screen shot below.
+Step 5: Click the link "Answers" to redirect to a form page. Input the parameters for the questions and get the results.
  
-
-Above steps should work but incase if there is any issue with the laravel or composer then simply do a fresh install.
+Incase you are unable to execute or run the project then go for a fresh install.
 
 1. composer global require "laravel/installer"
 
@@ -39,9 +41,11 @@ Above steps should work but incase if there is any issue with the laravel or com
 
 5. Copy the controller and view folders from the github project extract and paste in the new instance.
 
-5.1 Controllers: aligent/app/Http/Controllers
-5.2 Views: aligent/resources/views/questions
+5.1 Controllers: aligent/app/Http/Controllers/
+Copy and paste the DateHelp.php and Question1Controller.php
 
+5.2 Views: aligent/resources/views/
+Copy and paste the "questions" folder.
 
 C. File Structure
 
