@@ -22,7 +22,7 @@ Step 2: Create a folder "aligent" and Unzip the compressed project folder.
 
 Say for example  c:\xammp\htdocs\aligent
 
-Step 3: Create a .env in the Root directory. 
+Step 3: rename example.env to .env
 
 Step 4: Run "composer install" to install the vendor files. 
 
@@ -30,8 +30,12 @@ Step 5:  If everything works fine then you should be able to access the project 
 
 http://localhost/aligent/public/questions
 
-Step 5: Click the link "Answers" to redirect to a form page. Input the parameters for the questions and get the results.
- 
+Step 6: Click the link "Answers" to redirect to a form page. Input the parameters for the questions and get the results.
+
+
+----------------------- ********************************************** -----------------------------------------
+
+
 Incase you are unable to execute or run the project then go for a fresh install.
 
 1. composer global require "laravel/installer"
@@ -40,7 +44,7 @@ Incase you are unable to execute or run the project then go for a fresh install.
 
 3. composer install 
 
-4. rename .env.example .env
+4. rename .env.example to .env
 
 5. Copy the controller and view folders from the github project extract and paste in the new instance.
 
@@ -49,6 +53,8 @@ Copy and paste the DateHelp.php and Question1Controller.php
 
 5.2 Views: aligent/resources/views/
 Copy and paste the "questions" folder.
+
+----------------------- ********************************************** -----------------------------------------
 
 C. File Structure
 
