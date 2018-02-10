@@ -17,13 +17,16 @@ The project was developed in Windows 8.1 Operating System.
 B. Below are the steps to execute the project
 
 Step 1: Assumed the webserver is running and it supports above the stated configuration and other required configurations to run a Laravel project.
+
 Step 2: Create a folder "aligent" and Unzip the compressed project folder. 
 
 Say for example  c:\xammp\htdocs\aligent
 
-Step 3: Run "composer install" to install the vendor files. 
+Step 3: Create a .env in the Root directory. 
 
-Step 4:  If everything works fine then you should be able to access the project by accessing the url(assuming the webserver is local): 
+Step 4: Run "composer install" to install the vendor files. 
+
+Step 5:  If everything works fine then you should be able to access the project by accessing the url(assuming the webserver is local): 
 
 http://localhost/aligent/public/questions
 
