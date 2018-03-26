@@ -87,3 +87,5 @@ The projects view files are located at: aligent/resources/views/questions
 1. index.blade.php - laravel's default landing page - this page shows the challenge question page with a link to the form page.
 2. question1.blade.php - project's form page to accept parameters and return results.
 
+:+1: 
+
