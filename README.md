@@ -1,9 +1,9 @@
 # aligent
-The source code for the competition
+## The source code for the competition
 
 This project has been developed in Laravel Framework, below are the configuration and steps to execute the project. For more detailed steps check the Readme.doc file.
 
-A. Configuration and technologies used which is required to run the project
+###### A. Configuration and technologies used which is required to run the project
 
 1. Apache	2.4.29 (Win32) OpenSSL/1.0.2l PHP/7.1.11
 2. Laravel	5.5.33
@@ -14,7 +14,7 @@ A. Configuration and technologies used which is required to run the project
 
 The project was developed in Windows 8.1 Operating System.
 
-B. Below are the steps to execute the project
+###### B. Below are the steps to execute the project
 
 Step 1: Assumed the webserver is running and it supports above the stated configuration and other required configurations to run a Laravel project.
 
@@ -33,10 +33,7 @@ http://localhost/aligent/public/questions
 Step 6: Click the link "Answers" to redirect to a form page. Input the parameters for the questions and get the results.
 
 
------------------------ ********************************************** -----------------------------------------
-
-
-Incase you are unable to execute or run the project then go for a fresh install.
+###### Incase you are unable to execute or run the project then go for a fresh install.
 
 1. composer global require "laravel/installer"
 
@@ -54,9 +51,8 @@ Copy and paste the DateHelp.php and Question1Controller.php
 5.2 Views: aligent/resources/views/
 Copy and paste the "questions" folder.
 
------------------------ ********************************************** -----------------------------------------
 
-C. File Structure
+###### C. File Structure
 
 The projects main controller files are located at aligent/app/Http/Controllers
 
