@@ -1,4 +1,4 @@
-# aligent
+# Laravel project
 ## The source code for the competition
 
 This project has been developed in Laravel Framework, below are the configuration and steps to execute the project. For more detailed steps check the Readme.doc file.
