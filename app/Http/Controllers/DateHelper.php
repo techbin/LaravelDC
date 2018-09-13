@@ -107,4 +107,4 @@ echo 'Second(s) : '. $datediff->s.'<br>';
 return $weekcount;
 }
 }
-?>
+
