@@ -28,7 +28,8 @@ public function getDaysFromDateRange($start_date,$end_date){
 	$datediff   = $end_date->diff($start_date);
 	// total days
 	$days = $datediff->days;
-	echo '<strong>'.$days.' calendar day(s)</strong> <br>';
+	//calendar day(s)';
+	return $days;
 }
 
 
@@ -52,7 +53,6 @@ public function getWeekDaysFromDateRange($start_date,$end_date){
 	    if(!$loop_date->isWeekend())
 			$weekdays++;
 	}
-
 	/*check if the total duration is less than 24 hours*/
 	/*
 	Start DateTime: Fri, Apr 6, 2018 11:00 PM
@@ -61,9 +61,8 @@ public function getWeekDaysFromDateRange($start_date,$end_date){
 	$totalDuration = $this->getTotalDurationInSecs($start_date,$end_date);
 	if($totalDuration<86400)
 	$weekdays = 0;
-
-	echo '<strong>'.$weekdays.' weekday(s) (excluding Saturdays and Sundays) </strong><br>';
-
+	//weekday(s) (excluding Saturdays and Sundays)';
+	return $weekdays;
 }
 
 
@@ -107,23 +106,18 @@ public function getCompleteWeeksFromDateRange($start_date,$end_date,$detailed=fa
 	$end_dateM   = new Carbon($end_date);
 	$datediff   = $end_dateM->diff($start_dateM);
 	$weekcount = floor($datediff->days/7);
-
-	echo '<strong>'.$weekcount.' complete week(s) </strong>'.'<br>';
-
-	if($detailed){
-		/*manual calculation*/
+	/*if($detailed){
 	$totalDuration = $this->getTotalDurationInSecs($start_date,$end_date);
 	echo 'Total Duration   : '. $totalDuration.' (in seconds) <br>';
-
-		/*using functions*/
-		echo 'Year(s)   : '. $datediff->y.'<br>';
-		echo 'Month(s)  : '. $datediff->m.'<br>';
-		echo 'Day(s)    : '. $datediff->d.'<br>';
-		echo 'Hour(s)   : '. $datediff->h.'<br>';
-		echo 'Minute(s) : '. $datediff->i.'<br>';
-		echo 'Second(s) : '. $datediff->s.'<br>';
-
-}	
+	echo 'Year(s)   : '. $datediff->y.'<br>';
+	echo 'Month(s)  : '. $datediff->m.'<br>';
+	echo 'Day(s)    : '. $datediff->d.'<br>';
+	echo 'Hour(s)   : '. $datediff->h.'<br>';
+	echo 'Minute(s) : '. $datediff->i.'<br>';
+	echo 'Second(s) : '. $datediff->s.'<br>';
+	}*/
+	//complete week(s);
+	return $weekcount;
 }
 
 
