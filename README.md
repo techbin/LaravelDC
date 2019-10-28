@@ -18,9 +18,9 @@ The project was developed in Windows 8.1 Operating System.
 
 Step 1: Assumed the webserver is running and it supports above the stated configuration and other required configurations to run a Laravel project.
 
-Step 2: Create a folder "aligent" and Unzip the compressed project folder. 
+Step 2: Create a folder "laraveldatecmp" and Unzip the compressed project folder. 
 
-Say for example  c:\xammp\htdocs\aligent
+Say for example  c:\xammp\htdocs\laraveldatecmp
 
 Step 3: rename example.env to .env
 
@@ -28,7 +28,7 @@ Step 4: Run "composer install" to install the vendor files.
 
 Step 5:  If everything works fine then you should be able to access the project by accessing the url(assuming the webserver is local): 
 
-http://localhost/aligent/public/questions
+http://localhost/laraveldatecmp/public/questions
 
 Step 6: Click the link "Answers" to redirect to a form page. Input the parameters for the questions and get the results.
 
@@ -37,7 +37,7 @@ Step 6: Click the link "Answers" to redirect to a form page. Input the parameter
 
 1. composer global require "laravel/installer"
 
-2. laravel new aligent
+2. laravel new laraveldatecmp
 
 3. composer install 
 
